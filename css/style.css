@@ -1430,6 +1430,7 @@ span.border.two:after {
 		float: none;
 		position: relative;
 		padding: 0;
+		height: 100%;
 	}
 	
 	.about-left-grid ul li a {
