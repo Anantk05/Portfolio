@@ -44,6 +44,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		margin-bottom: 60px;
 		display: flex;
 		flex-wrap: wrap;
+		/* position: static; */
 		
 	}
 	#statistics_container>div{
@@ -515,7 +516,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								<a href="https://shop-com-clone-7.netlify.app/" data-toggle="modal" class="read hvr-shutter-in-horizontal" target="_blank">Live Link</a>
 						
 							</div>
-							<div class="col-md-6 news-img two" style="height: 430px;">
+							<div class="col-md-6 news-img two" style="height: 430px; position: unset;" >
 							<a href="https://shop-com-clone-7.netlify.app/" data-toggle="modal" target="_blank"> <img src="images/shop1.png" alt=" " style="height: 100%;" ></a>
 							
 							</div>
@@ -620,7 +621,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
 							<h4>Contact By Phone</h4>
 							<ul>
-								<li>Phone: +91 952 333 4500</li>
+								<!-- <li>Phone: +91 952 333 4500</li> -->
 								<li>WhatsApp: +91 952 333 4500</li>
 							</ul>
 						</div>
@@ -855,15 +856,15 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </html>
 
 <script>
-    GitHubCalendar(".calendar", "Anantk05");
+    // GitHubCalendar(".calendar", "Anantk05");
 
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "Anantk05", { responsive: true });
 
-    // Use a proxy
+    //Use a proxy
     GitHubCalendar(".calendar", "Anantk05", {
        proxy (username) {
-         return fetch(`https://your-proxy.com/github?user=${Anantk05}`)
+         return fetch(`https://your-proxy.com/github?user=${username}`)
        }
     }).then(r => r.text())
 </script>
